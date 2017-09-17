@@ -26,7 +26,7 @@ SECRET_KEY = 'n00d=x!1)3sld&1di0_7^)j%pjyyz%b=740u#2a%t0%1qo-toy'
 DEBUG = True
 
 ALLOWED_HOSTS = ['roronoa.pythonanywhere.com']
-
+LOGIN_REDIRECT_URL = '/'
 
 # Application definition
 
