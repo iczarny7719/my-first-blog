@@ -1,5 +1,5 @@
 h1 a {
-    color: #FCA205;
+    color: #6FD2F2;
     font-family: 'Lobster';
 }
 
@@ -8,13 +8,13 @@ body {
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #F22424;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #000000;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: #45C4AF;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -54,7 +54,6 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
-Teraz otocz kod HTML wyświetlający posty deklaracjami klas. Zamień to:
 
 {% for post in posts %}
     <div class="post">
